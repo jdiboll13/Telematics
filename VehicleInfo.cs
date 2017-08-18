@@ -17,7 +17,10 @@ namespace Telematics
             OdometerLastOilChange = odometerLastOilChange;
             EngineSize = engineSize;
         }
-        
+        public override string ToString()
+        {
+            return $"The VIN is {VIN}, it has {Odometer} miles, it gets {Consumption} miles to the gallon. It's last oil change was at {OdometerLastOilChange} miles and it has an engine size of {EngineSize}.";
+        }
         
 
     }
