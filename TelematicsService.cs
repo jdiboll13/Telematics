@@ -25,9 +25,6 @@ namespace Telematics
                 // while (reader.Peek() >= 0)
                 // {
                 //     var  = reader.ReadToEnd();
-
-                //     var data = contactFromFile.Split(',');
-                //     phoneFromFile.Add(new Contact(data));
                 // }                
             }
         }
