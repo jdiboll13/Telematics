@@ -25,6 +25,7 @@ namespace Telematics
 
             var newVehicle = new VehicleInfo(vinInput, odometerInput, consumptionInput, odometerLastOilChangeInput, engineSizeInput); 
             new TelematicsService().Report(newVehicle);
+            new TelematicsService().HtmlReport(newVehicle);
         }
     }
 }
